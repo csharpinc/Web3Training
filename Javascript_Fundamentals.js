@@ -1,12 +1,6 @@
-//1. Data Types and Variables:
-//Problem: Declare a variable named greeting and assign the string "Hello, World!" to it. Then, print the variable to the console.
 
-//Solution:
 
-let greeting = "Hello, World!";
-console.log(greeting);
-
-//2. Type Coercion:
+//1. Type Coercion:
 //Problem: Given a number x, convert it to a string and then append the string " times" to the end. Print the result.
 
 //Solution:
@@ -15,7 +9,7 @@ let x = 5;
 let result = x.toString() + " times";
 console.log(result);  // Outputs: "5 times"
 
-//3. Conditional Statements:
+//2. Conditional Statements:
 //Problem: Write a program that checks if a given number y is even or odd and prints the result to the console.
 
 //Solution:
@@ -26,7 +20,7 @@ if (y % 2 === 0) {
 } else {
     console.log("The number is odd.");
 }
-//4. Logical Operators:
+//3. Logical Operators:
 //Problem: Given two boolean variables a and b, print "Both are true" if both are true, "Both are false" if both are false, and "Mixed values" otherwise.
 
 //Solution:
@@ -41,7 +35,7 @@ if (a && b) {
 } else {
     console.log("Mixed values");
 }
-//5. Switch Statement:
+//4. Switch Statement:
 //Problem: Given a variable fruit, if it's "apple", print "Red", if it's "banana", print "Yellow", and if it's "grape", print "Purple". For any other fruit, print "Unknown color".
 
 //Solution:
