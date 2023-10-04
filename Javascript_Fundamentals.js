@@ -16,9 +16,9 @@ console.log(result);  // Outputs: "5 times"
 let y = 6;
 
 if (y % 2 === 0) {
-    console.log("The number is even.");
+    console.log("The num is even.");
 } else {
-    console.log("The number is odd.");
+    console.log("The num is odd.");
 }
 //3. Logical Operators:
 //Problem: Given two boolean variables a and b, print "Both are true" if both are true, "Both are false" if both are false, and "Mixed values" otherwise.
