@@ -140,26 +140,5 @@ function sumArray(numbers) {
 
 console.log(sumArray([1, 2, 3, 4, 5]));  // Outputs: 15
 
-//2. Functions with Objects:
-//Problem: Write a function that takes an object representing a person and returns their full name.
 
-//Solution:
-
-function getFullName(person) {
-    return person.firstName + " " + person.lastName;
-}
-
-const personObj = {
-    firstName: "John",
-    lastName: "Doe"
-};
-
-console.log(getFullName(personObj));  // Outputs: "John Doe"
-
-s
-
-//Using functions in tandem with arrays and objects is a common pattern in programming. Mastering these foundational topics is crucial before moving on to more advanced JavaScript features and frameworks.
-
-//Advanced Data Structures in JavaScript:
-//While JavaScript doesn't have built-in support for advanced data structures like some other languages, many of these can be implemented using JavaScript's basic objects and arrays.
 
