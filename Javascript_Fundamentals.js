@@ -156,46 +156,7 @@ const personObj = {
 
 console.log(getFullName(personObj));  // Outputs: "John Doe"
 
-//3. Functions, Arrays, and Objects Combined:
-//Problem: Given an array of objects, where each object represents a book with a title and author property, write a function that returns the titles of all the books.
-
-//Solution:
-
-function getBookTitles(books) {
-    let titles = [];
-    for (let book of books) {
-        titles.push(book.title);
-    }
-    return titles;
-}
-
-const booksArray = [
-    { title: "To Kill a Mockingbird", author: "Harper Lee" },
-    { title: "1984", author: "George Orwell" },
-    { title: "The Great Gatsby", author: "F. Scott Fitzgerald" }
-];
-
-console.log(getBookTitles(booksArray));  // Outputs: ["To Kill a Mockingbird", "1984", "The Great Gatsby"]
-
-//4. Modifying Objects inside an Array:
-//Problem: Given an array of objects where each object represents a student with a name and grade property, write a function that increases each student's grade by 10%.
-
-//Solution:
-
-function boostGrades(students) {
-    for (let student of students) {
-        student.grade *= 1.10;
-    }
-}
-
-const studentsArray = [
-    { name: "Alice", grade: 85 },
-    { name: "Bob", grade: 90 },
-    { name: "Charlie", grade: 78 }
-];
-
-boostGrades(studentsArray);
-console.log(studentsArray);  // Outputs the modified students array with boosted grades
+s
 
 //Using functions in tandem with arrays and objects is a common pattern in programming. Mastering these foundational topics is crucial before moving on to more advanced JavaScript features and frameworks.
 
